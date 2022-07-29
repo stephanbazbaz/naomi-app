@@ -1,0 +1,30 @@
+@import "../../utils/styles.scss";
+
+.home {
+  animation: fadeIn 0.5s;
+  .home-header {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 0px);
+    align-content: center;
+    align-items: center;
+    right: 0;
+    left: 0;
+  }
+  .title {
+    margin: 0;
+    margin-top: 15px;
+  }
+  .img-warp {
+    width: 400px;
+    height: 400px;
+    overflow-y: hidden;
+    border-radius: 50%;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../utils/styles.scss";
+
+.contact {
+  animation: fadeIn 1s;
+  .icon-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .icon {
+      width: 40px;
+    }
+  }
+}

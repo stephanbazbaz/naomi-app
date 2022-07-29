@@ -1,0 +1,11 @@
+@import "../../utils/styles.scss";
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 9;
+  button {
+    min-width: 150px;
+  }
+}

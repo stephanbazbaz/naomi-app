@@ -1,0 +1,17 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: "open-sans";
+  src: url("../Assets/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open-sans-bold";
+  src: url("../Assets/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
