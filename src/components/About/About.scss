@@ -2,20 +2,16 @@
 
 .about {
   animation: fadeIn 0.5s;
-  height: calc(100vh - 100px);
   display: flex;
   .text-warp {
-    border-radius: 6px;
-    padding: 0px 50px 97px;
-    background-color: white;
-    width: 100%;
-    margin: auto;
-    line-height: 2.5;
-    box-shadow: 0px 1px 18px -1px rgb(0 0 0 / 68%);
-    max-width: 800px;
-    .title {
-      margin-bottom: 0;
+    @include shadow-contanier;
+    @media (max-width: $MobileScreen) {
+      padding: 0px 5px 40px;
     }
+    .title {
+      @include title;
+    }
+
     .text {
       margin: 0;
       .conflicts {

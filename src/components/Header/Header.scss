@@ -7,5 +7,8 @@
   z-index: 9;
   button {
     min-width: 150px;
+    @media (max-width: $MobileScreen) {
+      min-width: unset;
+    }
   }
 }

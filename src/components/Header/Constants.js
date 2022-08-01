@@ -2,7 +2,7 @@ import { HOME, ABOUT, CONTACT, MORE } from '../../utils/routes.js'
 
 export const ROUTES_ARR = [
     {
-        name: 'דף הבית',
+        name: 'ראשי',
         route: HOME,
     },
     {

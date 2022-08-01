@@ -2,29 +2,31 @@
 
 .home {
   animation: fadeIn 0.5s;
-  .home-header {
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    height: calc(100vh - 0px);
-    align-content: center;
-    align-items: center;
-    right: 0;
-    left: 0;
-  }
-  .title {
-    margin: 0;
-    margin-top: 15px;
-  }
-  .img-warp {
-    width: 400px;
-    height: 400px;
-    overflow-y: hidden;
-    border-radius: 50%;
-  }
+  .shadow-contanier {
+    position: relative;
+    @include shadow-contanier;
+    padding: 0px 50px 66px;
+    .home-header {
+      display: flex;
+      justify-content: center;
+      .img-warp {
+        width: 300px;
+        height: 300px;
+        overflow-y: hidden;
+        border-radius: 50%;
+        .main-img {
+          width: 100%;
+        }
+      }
+    }
+    .title {
+      @include title;
+    }
 
-  .main-img {
-    width: 100%;
+    .sub-title {
+      line-height: 1;
+      margin: 0;
+      margin-top: 20px;
+    }
   }
 }

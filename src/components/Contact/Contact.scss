@@ -2,12 +2,38 @@
 
 .contact {
   animation: fadeIn 1s;
-  .icon-row {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    .icon {
-      width: 40px;
+  padding-bottom: 20px;
+  .shadow-contanier {
+    @include shadow-contanier;
+    .title {
+      @include title;
+      margin-bottom: 35px;
+    }
+  }
+  .form {
+    margin: auto;
+    width: fit-content;
+    .icon-row {
+      display: flex;
+      width: 100%;
+      gap: 9px;
+      align-items: center;
+      margin-bottom: 30px;
+      line-height: 1;
+      cursor: pointer;
+      .contact-details {
+        &:hover {
+          text-decoration: underline;
+          color: #8153eb;
+        }
+      }
+
+      .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
     }
   }
 }

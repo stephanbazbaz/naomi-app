@@ -1,0 +1,1 @@
+export const DummyText = 'Lorem ipsum dolor sit amet. Ab culpa optio eos quidem suscipit aut ...'

@@ -1,5 +1,26 @@
+@import "../../utils/styles.scss";
+
 .more {
   animation: fadeIn 1s;
+  .shadow-contanier {
+    @include shadow-contanier;
+    padding: 0px 50px 20px;
+    .title {
+      @include title;
+    }
+  }
+
+  .more-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    max-width: 800px;
+    .article-card {
+      margin: 30px;
+    }
+  }
 }
 @keyframes fadeIn {
   0% {
