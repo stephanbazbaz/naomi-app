@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Contact.scss'
 import MAIL_IMG from '../../Assets/mail_4.svg'
 import PHONE_IMG from '../../Assets/phone_7.svg'
@@ -16,14 +16,14 @@ const Contact = () => {
           <h1 title="ליצירת קשר עם ד״ר נעמי היימן" className='title'>ליצירת קשר וקביעת תור</h1>
           <div className='icon-row'>
             <div className='icon' >
-              <img src={PHONE_IMG} />
+              <img alt='מספר טלפון של נעמי היימן איתי' src={PHONE_IMG} />
             </div>
             <div>טלפון -</div>
             <div className='contact-details' onClick={() => callNumber()}>0525459496</div>
           </div>
           <div className='icon-row'>
             <div className='icon'>
-              <img src={MAIL_IMG} />
+              <img alt='כתובת מייל של נעמי היימן איתי' src={MAIL_IMG} />
             </div>
             <div>מייל - </div>
             <div className='contact-details' onClick={() => sendMail()}>naominitai@gmail.com</div>
