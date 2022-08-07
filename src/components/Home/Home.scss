@@ -2,10 +2,12 @@
 
 .home {
   animation: fadeIn 0.5s;
+  padding: 0 0 20px 0;
   .shadow-contanier {
     position: relative;
     @include shadow-contanier;
-    padding: 0px 50px 66px;
+    margin: 15px auto 0;
+    padding: 0px 50px 40px;
     .home-header {
       display: flex;
       justify-content: center;

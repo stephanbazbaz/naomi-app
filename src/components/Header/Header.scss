@@ -1,10 +1,16 @@
 @import "../../utils/styles.scss";
 
-.header {
+.app .header {
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 9;
+  .tabs-indicator {
+    background-color: $textColor;
+  }
+  .tabs-selected {
+    color: $textColor;
+  }
   button {
     min-width: 150px;
     @media (max-width: $MobileScreen) {

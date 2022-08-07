@@ -3,7 +3,7 @@ import './About.scss'
 const About = () => {
   return (
     <div className='about'>
-      <div className='text-warp'>
+      <div className='text-warp' itemProp="person" itemScope itemType="https://schema.org/Person">
         <h1 title="ד״ר נעמי היימן" className="title">ד״ר נעמי היימן איתי </h1>
         <div className="text">
           פסיכותרפיסטית מתמחה בטיפול פסיכותרפיה אקספרסיבית.

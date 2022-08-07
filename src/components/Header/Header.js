@@ -19,9 +19,14 @@ const Header = () => {
     <div className='header'>
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-          <TabList centered onChange={handleChange}>
+          <TabList classes={{
+            indicator: 'tabs-indicator'
+          }} centered onChange={handleChange}>
             {ROUTES_ARR.map((item, idx) =>
               <Tab
+                classes={{
+                  selected: 'tabs-selected'
+                }}
                 key={`${'tab' + idx}`}
                 label={item.route !== MORE ? item.name :
                   <div>{item.name} <LightBolb style={{ width: '10px' }} /></div>}
