@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer-raw'>
-                <div>All Rights Reserved @ Noami Heyman Itay</div>
+                <div title="נעמי הימן איתי">All Rights Reserved @ Noami Heyman Itay</div>
             </div>
         </div>
     )

@@ -13,7 +13,7 @@ const Contact = () => {
     <div className='contact'>
       <div className='shadow-contanier'>
         <div className='form'>
-          <h1 className='title'>ליצירת קשר וקביעת תור </h1>
+          <h1 title="ליצירת קשר עם ד״ר נעמי היימן" className='title'>ליצירת קשר וקביעת תור</h1>
           <div className='icon-row'>
             <div className='icon' >
               <img src={PHONE_IMG} />

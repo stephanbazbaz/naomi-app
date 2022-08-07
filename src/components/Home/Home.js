@@ -11,7 +11,7 @@ const Home = () => {
                         <img alt="נעמי היימן איתי פסיכוטרפיסטית עם ניסיון של שנים, כל מה שחיפשם על נעמי היימן" className="main-img" src={NAOMI_IMG} />
                     </div>
                 </div>
-                <h1 title="ד״ר נעמי הימן" className="sub-title">EXPRESSIVE THERAPY</h1>
+                <h1 title="EXPRESSIVE THERAPY" className="sub-title">EXPRESSIVE THERAPY</h1>
             </div>
         </div>
     )
