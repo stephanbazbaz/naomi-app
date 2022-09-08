@@ -3,6 +3,12 @@
 .home {
   animation: fadeIn 0.5s;
   padding: 0 0 20px 0;
+  .square {
+    width: 200px;
+    height: 200px;
+    background: grey;
+  }
+
   .shadow-contanier {
     position: relative;
     @include shadow-contanier;
