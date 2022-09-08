@@ -3,17 +3,12 @@ import "./More.scss"
 import { cardArr } from "./Constants"
 import ArticleCard from "../Common/ArticleCard/ArticleCard"
 const More = () => {
-  // const cardArr = Array(4).fill('').map((_, i) => {
-  //     return {
-  //         text: DummyText,
-  //         title: `מאמר ${i + 1}`
-  //     }
-  // })
+  const thinikingMat = "חומר למשחבה"
   return (
     <div className="more">
       <div className="shadow-contanier">
         <h1 title="למידע נוסף על נעמי היימן איתי" className="title">
-          חומר למשחבה
+          {thinikingMat}
         </h1>
         <div className="more-card-row">
           {cardArr?.map((item, idx) => (
