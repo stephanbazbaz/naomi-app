@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="shadow-contanier">
-        <h1 title="ד״ר נעמי היימן" className="title">
+        <h1 title="Naomi Heyman Itay / ד״ר נעמי היימן" className="title">
           ד״ר נעמי היימן איתי{" "}
         </h1>
         <div className="home-header">
@@ -17,7 +17,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <h1 title="EXPRESSIVE THERAPY" className="sub-title">
+        <h1 title="Naomi Heyman Itai" className="sub-title">
           EXPRESSIVE THERAPY
         </h1>
       </div>

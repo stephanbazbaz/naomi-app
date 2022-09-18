@@ -13,7 +13,10 @@ const Contact = () => {
     <div className="contact">
       <div className="shadow-contanier">
         <div className="form">
-          <h1 title="ליצירת קשר עם ד״ר נעמי היימן" className="title">
+          <h1
+            title="contact Naomi Heyman Itay / ליצירת קשר עם ד״ר נעמי היימן"
+            className="title"
+          >
             ליצירת קשר וקביעת תור
           </h1>
           <div className="icon-row">
