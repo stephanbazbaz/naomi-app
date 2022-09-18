@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="shadow-contanier">
         <div className="form">
           <h1
-            title="contact Naomi Heyman Itay / ליצירת קשר עם ד״ר נעמי היימן"
+            title="contact Naomi Heyman Itay / ליצירת קשר עם ד״ר נעמי היימן איתי"
             className="title"
           >
             ליצירת קשר וקביעת תור
