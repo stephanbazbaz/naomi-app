@@ -9,7 +9,10 @@ const About = () => {
         itemScope
         itemType="https://schema.org/Person"
       >
-        <h1 title="Naomi Heyman Itai / ד״ר נעמי היימן" className="title">
+        <h1
+          title="Naomi Heyman Itai /איתי ד״ר נעמי היימן איתי"
+          className="title"
+        >
           ד״ר נעמי היימן איתי{" "}
         </h1>
         <div className="text">
