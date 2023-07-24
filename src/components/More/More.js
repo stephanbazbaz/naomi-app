@@ -1,6 +1,6 @@
 import React from "react"
 import "./More.scss"
-import { cardArr, articleArr } from "./Constants"
+import { articleArr } from "./Constants"
 import ArticleCard from "../Common/ArticleCard/ArticleCard"
 import ModalComponent from "../Common/ModalComponent/ModalComponent"
 import Article from "../Article/Article"
