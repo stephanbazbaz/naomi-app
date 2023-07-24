@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-raw">
         <div title="Naomi Heyman Itay / נעמי הימן איתי">
-          All Rights Reserved @ Noami Heyman Itay
+          All Rights Reserved @ Naomi Heyman Itay
         </div>
       </div>
     </div>

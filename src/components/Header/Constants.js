@@ -1,4 +1,4 @@
-import { HOME, ABOUT, CONTACT } from "../../utils/routes.js"
+import { HOME, ABOUT, CONTACT, MORE } from "../../utils/routes.js"
 
 export const ROUTES_ARR = [
   {
@@ -13,8 +13,8 @@ export const ROUTES_ARR = [
     name: "צרו קשר",
     route: CONTACT,
   },
-  // {
-  //     name: 'חומר למחשבה',
-  //     route: MORE,
-  // },
+  {
+    name: "חומר למחשבה",
+    route: MORE,
+  },
 ]

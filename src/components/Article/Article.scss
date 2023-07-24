@@ -1,0 +1,15 @@
+.article-container {
+  direction: rtl;
+
+  .title {
+    text-align: center;
+  }
+
+  .text {
+    overflow: auto;
+    max-height: 360px;
+    white-space: break-spaces;
+    text-align: right;
+    line-height: 1.5;
+  }
+}
